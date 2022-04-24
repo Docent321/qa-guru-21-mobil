@@ -31,8 +31,8 @@ public class BrowserStackMobileDriver implements WebDriverProvider {
 //        caps.setCapability("browserstack.key", "Gq9TBzG8VjEVvKkJdrXh");
 
         // Set URL of the application under test
-//        caps.setCapability("app", Credentials.config.app());
-        caps.setCapability("app", Credentials.getApp());
+        caps.setCapability("app", Credentials.config.app());
+//        caps.setCapability("app", Credentials.getApp());
 //        caps.setCapability("app", "bs://6a6d2e2661ba89ef50d3993cec86bb94edc32f5c");
 
         // Specify device and os_version for testing
